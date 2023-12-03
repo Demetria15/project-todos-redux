@@ -1,3 +1,11 @@
+import { Header } from "./components/Header";
+import { TodoList } from "./components/ToDoList";
+
 export const App = () => {
-  return <div>Find me in App.jsx!</div>;
+  return (
+    <>
+      <Header />
+      <TodoList />
+    </>
+  );
 };

@@ -1,0 +1,35 @@
+.todo-list {
+    max-width: 500px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .date {
+    align-self: flex-start;
+    display: flex;
+  }
+  
+  .button-container {
+    width: 97%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .delete-button {
+    margin: 10px 0 0 5px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 10px 15px;
+    background: transparent;
+    /* background: rgba(255, 255, 255, 0.5); */
+    color: #1f0e0e;
+  }
+  
+  .delete-button:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
