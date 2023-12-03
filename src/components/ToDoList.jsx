@@ -4,7 +4,7 @@ import { Task } from "./Task";
 import { todoList } from "../reducers/ToDoList";
 import Lottie from "lottie-react";
 import animationData from "../assets/Animation.json";
-import "./TodoList.css";
+import "./ToDoList.css";
 
 export const TodoList = () => {
   const allTasks = useSelector((store) => store.todoList.tasks);
